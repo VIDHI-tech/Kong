@@ -114,6 +114,7 @@ const Roadmap = () => {
         document.documentElement.scrollHeight - window.innerHeight;
       const scrollPercentage = (position / maxScroll) * 100;
       setScrollPosition(scrollPercentage);
+      console.log(scrollPosition);
     };
 
     window.addEventListener("scroll", handleScroll);
