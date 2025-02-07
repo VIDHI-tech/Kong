@@ -33,7 +33,7 @@ const Navbar = () => {
       </div>
  
       {isOpen && (
-        <div className="absolute w-1/2 top-full right-6 mt-2 bg-b p-4 rounded-lg shadow-lg z-50 md:hidden">
+        <div className="absolute w-5/6 top-full right-3 bg-b p-4 rounded-lg shadow-black shadow-2xl z-50 md:hidden">
           <a
             href="#whitepaper"
             className="block hover:text-yellow-400 py-2 border-b border-gray-700"

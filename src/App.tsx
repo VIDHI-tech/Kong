@@ -1,27 +1,24 @@
-import About from "./components/About";
+
 import Home from "./components/Home";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar";  
+import Missed from "./components/Missed";
 import Presale from "./components/Presale";
+import Footer from "./components/Footer"; 
 import Roadmap from "./components/Roadmap";
-import Whitepaper from "./components/Whitepaper";
+import Ready from "./components/Ready";
 
 function App() {
   return (
     <>
-      <div className="bg-b"> 
+      <main className="bg-b"> 
         <Navbar /> 
         <Home />
-        <About/>
-        {/* <Whitepaper /> */}
-        {/* <Presale /> */}
-        {/* <Roadmap /> */}
-      </div>
-      {/* <Nav />
-      <div className="lg:px-[calc(50%-600px)]">
-        <Hero />
-        <Seen />
-        <About />
-      </div> */}
+        <Presale /> 
+        <Missed/>
+        <Roadmap />
+        <Ready/>
+        <Footer/>
+      </main>
     </>
   );
 }
