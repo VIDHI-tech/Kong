@@ -13,7 +13,7 @@ const Presale = () => {
         <img src="/6grass.png" alt=""/>
       </span>
       <section className="px-6 py-14 xl:py-36 xl:px-[calc(50%-600px)]">
-        <h1 className="text-2xl lg:text-3xl xl:text-6xl passion-one-bold text-center">KONG PRE-SALE EVERYONE IS<br/> EARLY HERE!</h1>
+        <h1 className="text-4xl lg:text-5xl xl:text-6xl passion-one-bold text-center">KONG PRE-SALE EVERYONE IS<br/> EARLY HERE!</h1>
         <div className="flex justify-center gap-7 items-center pt-20">
         {images.map((image, index) => (
           <a key={index} href="/">

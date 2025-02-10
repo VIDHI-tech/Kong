@@ -56,8 +56,8 @@ const Roadmap = () => {
   });
 
   return (
-    <div className="max-w-7xl mx-auto min-h-screen bg-b py-12 px-2 sm:px-6 2xl:px-0">
-      <h1 className="text-center pb-48 text-5xl font-extrabold text-white uppercase tracking-tighter">
+    <div className="max-w-7xl mx-auto min-h-screen bg-b lg:py-12 px-2 sm:px-6 2xl:px-0">
+      <h1 className="text-center pb-20 lg:pb-48 text-5xl lg:text-6xl font-extrabold text-white uppercase tracking-tighter">
         Roadmap
       </h1>
 

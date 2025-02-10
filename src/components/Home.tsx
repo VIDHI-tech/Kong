@@ -2,7 +2,7 @@ import { FaTelegramPlane , FaTwitter } from "react-icons/fa";
 import { SiSolana } from "react-icons/si";
 const Home = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between px-6 pt-14 pb-28 bg-b text-white xl:px-[calc(50%-600px)] overflow-hidden ">
+    <div className="flex flex-col md:flex-row items-center justify-between px-6 pt-14 pb-28 gap-y-10 bg-b text-white xl:px-[calc(50%-600px)] overflow-hidden ">
       <section className="flex flex-col space-y-6 gap-x-3 items-center md:items-start md:w-1/2">
         <h1 className="text-4xl lg:text-5xl xl:text-7xl font-extrabold uppercase passion-one-bold">
           <span className="text-y">Kong</span> is the sol
