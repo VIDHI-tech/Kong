@@ -10,7 +10,7 @@ const TimelineCard = ({ title, items, isInverted }: TimelineCardProps) => {
   return (
     <div
       className={cn(
-        `bg-white lg:min-w-96 w-full p-8 rounded-lg shadow-xl relative transform before:content-[''] before:absolute before:inset-0 before:bg-white before:-z-10 before:rounded-lg before:transform before:origin-top-right before:-skew-y-6 before:-translate-y-[5rem] border-black border-r-4 border-b-4 my-20 sm:my-10 lg:my-auto`,
+        `bg-white lg:min-w-96 w-full p-8 rounded-lg shadow-xl relative transform before:content-[''] before:absolute before:inset-0 before:bg-white before:-z-10 before:rounded-2xl before:transform before:origin-top-right before:-skew-y-6 before:-translate-y-[5rem] border-black border-r-4 border-b-4 my-20 sm:my-10 lg:my-auto`,
         {
           "before:origin-top-left before:skew-y-6": isInverted,
         }
@@ -38,7 +38,7 @@ const TimelineCard = ({ title, items, isInverted }: TimelineCardProps) => {
         {items.map((listItem, i) => (
           <div key={i} className="flex items-center space-x-3">
             <div className="w-2 h-2 lg:w-4 lg:h-4 bg-white border-2 border-r rounded-full flex items-center justify-center" />
-            <span className="text-base lg:text-xl xl:text-2xl pangolin-regular">
+            <span className="text-sm md:text-base lg:text-xl xl:text-2xl pangolin-regular">
               {listItem}
             </span>
           </div>

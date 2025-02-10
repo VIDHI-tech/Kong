@@ -403,7 +403,7 @@ const Roadmap = () => {
       </div>
 
       {/* desktop */}
-      <div className="lg:grid grid-cols-2 gap-x-32 relative hidden">
+      <div className="lg:grid grid-cols-2 gap-x-32 2xl:gap-x-48 relative hidden">
         <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-white block">
           <div className="relative w-full h-full">
             {/* Scrolling indicator */}
