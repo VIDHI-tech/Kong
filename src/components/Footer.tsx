@@ -29,7 +29,14 @@ const Footer = () => {
               <SiSolana />
             </span>
           </p>
-          <p className="pangolin-regular text-xl lg:text-2xl pb-4">© Kong 2024 - All Rights Reserved</p>
+          <p className="pangolin-regular text-xl lg:text-2xl pb-">@Kong  {new Date().getFullYear()}.
+            <a href="/privacy" className="hover:text-[#167AC6]">{" "}
+             All Rights Reserved
+            </a>
+          </p>
+          <a href="https://palnesto.com/" className="pb-7 w-80" target="_blank">
+           <img src="/palnesto.svg" alt="" className="w-full h-full"/>
+          </a>
         </section>
       </footer>
     </>
